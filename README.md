@@ -212,21 +212,21 @@ Coming soon...
  2. [Installation](#installation)
 
  3. [Get api key](#getApiKey)
-   * [Terms of Use](#termsOfUse)
+    * [Terms of Use](#termsOfUse)
 
  4. [Documentation](#documentation)
-   * [osu!api V1](#apiV1)
-     * [get_beatmaps](#getBeatmaps)
-     * [get_user](#getUser)
-     * [get_scores](#getScores)
-     * [get_user_best](#getUserBest)
-     * [get_user_recent](#getUserRecent)
-     * [get_match](#getMatch)
-     * [get_replay](#getReplay)
+    * [osu!api V1](#apiV1)
+      * [get_beatmaps](#getBeatmaps)
+      * [get_user](#getUser)
+      * [get_scores](#getScores)
+      * [get_user_best](#getUserBest)
+      * [get_user_recent](#getUserRecent)
+      * [get_match](#getMatch)
+      * [get_replay](#getReplay)
 
-   * [osu!api V2](#apiV2)
+    * [osu!api V2](#apiV2)
 
-   * [Enumerate](#enumerate)
+    * [Enumerate](#enumerate)
 
 
 [py]: https://www.python.org/
