@@ -84,6 +84,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general beatmap information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+ 
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -105,6 +106,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general user information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+ 
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -120,6 +122,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get information about the top 100 of a beatmap.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -137,6 +140,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general user information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -152,6 +156,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets the user's ten most recent plays over the last 24 hours.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+ 
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -167,6 +172,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets information about multiplayer match.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -179,6 +185,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets the user's ten most recent plays over the last 24 hours.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
