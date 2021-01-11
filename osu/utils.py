@@ -1,9 +1,11 @@
 """
 Description: A module with utility functions use in apiV1.py and apiV2.py
+
 Author: LostPy
 License: MIT
 Date: 2021-01-11
 """
+
 import json
 
 try:
@@ -14,9 +16,9 @@ except ImportError:
 
 
 def from_json(text_json, type_return: str):
-	"""A function to convert json result in a type specify"""
+	"""A function to convert json result in a type specify."""
 	if type_return == 'json':
-		return r.text
+		return text_json
 
 	if type_return == 'dict':
 		return json.loads(text_json)

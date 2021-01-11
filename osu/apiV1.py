@@ -1,5 +1,6 @@
 """
 Description: A Python module to use easily the osu!api V1.
+
 Author: LostPy
 License: MIT
 Date: 2021-01-11
