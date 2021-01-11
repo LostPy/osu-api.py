@@ -18,13 +18,11 @@ def from_json(text_json, type_return: str):
 	if type_return == 'json':
 		return r.text
 
-	elif type_return == 'dict':
+	if type_return == 'dict':
 		return json.loads(text_json)
 
-	elif type_return == 'dataframe':
+	if type_return == 'dataframe':
 		if pandas_imported:
 			return pd.read_json(text_json)
-		else:
-			raise ValueError("type_return can't take 'dataframe' value if pandas is not installed! Install pandas and retry.")
-	else:
-		raise ValueError(f"type_return can't take the value: '{type_return}'. Possibles types: 'json', 'dict', 'dataframe'.")
+		raise ValueError("type_return can't take 'dataframe' value if pandas is not installed! Install pandas and retry.")
+	raise ValueError(f"type_return can't take the value: '{type_return}'. Possibles types: 'json', 'dict', 'dataframe'.")
