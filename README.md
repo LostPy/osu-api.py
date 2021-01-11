@@ -52,15 +52,15 @@
 ## Installation <a id="Installation"></a>
 To install this package, you can use the following command:
 
-`pip install git+https://github.com/LostPy/osu-api.git@main`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main`
 
 
 **To update** the package, you can use:  
-`pip install git+https://github.com/LostPy/osu-api.git@main --upgrade`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main --upgrade`
 
 OR
 
-`pip install git+https://github.com/LostPy/osu-api.git@main -U`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main -U`
 
 
 ## Get a api key <a id="getApiKey"></a>
@@ -156,7 +156,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets the user's ten most recent plays over the last 24 hours.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
- 
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
