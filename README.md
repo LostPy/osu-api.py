@@ -7,21 +7,21 @@
  2. [Installation](#installation)
 
  3. [Get api key](#getApiKey)
-   * [Terms of Use](#termsOfUse)
+    * [Terms of Use](#termsOfUse)
 
  4. [Documentation](#documentation)
-   * [osu!api V1](#apiV1)
-     * [get_beatmaps](#getBeatmaps)
-     * [get_user](#getUser)
-     * [get_scores](#getScores)
-     * [get_user_best](#getUserBest)
-     * [get_user_recent](#getUserRecent)
-     * [get_match](#getMatch)
-     * [get_replay](#getReplay)
+    * [osu!api V1](#apiV1)
+      * [get_beatmaps](#getBeatmaps)
+      * [get_user](#getUser)
+      * [get_scores](#getScores)
+      * [get_user_best](#getUserBest)
+      * [get_user_recent](#getUserRecent)
+      * [get_match](#getMatch)
+      * [get_replay](#getReplay)
 
-   * [osu!api V2](#apiV2)
+    * [osu!api V2](#apiV2)
 
-   * [Enumerate](#enumerate)
+    * [Enumerate](#enumerate)
 
 ## Global informations <a id="globalInfos"></a>
  * Author: [LostPy][me]
@@ -220,3 +220,14 @@ Coming soon...
    * [osu!api V2](#apiV2)
 
    * [Enumerate](#enumerate)
+
+
+[py]: https://www.python.org/
+[req]: https://requests.readthedocs.io/en/master/
+[pd]: https://pandas.pydata.org/
+[apiv1]: https://github.com/ppy/osu-api/wiki
+[apiv2]: https://osu.ppy.sh/docs/index.html
+[terms]: https://osu.ppy.sh/docs/index.html#terms-of-use
+[api-key]: https://osu.ppy.sh/p/api/
+[license]: https://github.com/LostPy/osu-api.py/blob/main/LICENSE
+[me]: https://osu.ppy.sh/users/11187592
