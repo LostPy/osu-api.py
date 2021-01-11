@@ -1,4 +1,5 @@
 # osu-api.py
+[![CodeFactor](https://www.codefactor.io/repository/github/lostpy/osu-api.py/badge)](https://www.codefactor.io/repository/github/lostpy/osu-api.py)  
  A small module to get informations with osu!api
 
 ## Index
@@ -7,21 +8,21 @@
  2. [Installation](#installation)
 
  3. [Get api key](#getApiKey)
-   * [Terms of Use](#termsOfUse)
+    * [Terms of Use](#termsOfUse)
 
  4. [Documentation](#documentation)
-   * [osu!api V1](#apiV1)
-     * [get_beatmaps](#getBeatmaps)
-     * [get_user](#getUser)
-     * [get_scores](#getScores)
-     * [get_user_best](#getUserBest)
-     * [get_user_recent](#getUserRecent)
-     * [get_match](#getMatch)
-     * [get_replay](#getReplay)
+    * [osu!api V1](#apiV1)
+      * [get_beatmaps](#getBeatmaps)
+      * [get_user](#getUser)
+      * [get_scores](#getScores)
+      * [get_user_best](#getUserBest)
+      * [get_user_recent](#getUserRecent)
+      * [get_match](#getMatch)
+      * [get_replay](#getReplay)
 
-   * [osu!api V2](#apiV2)
+    * [osu!api V2](#apiV2)
 
-   * [Enumerate](#enumerate)
+    * [Enumerate](#enumerate)
 
 ## Global informations <a id="globalInfos"></a>
  * Author: [LostPy][me]
@@ -52,15 +53,15 @@
 ## Installation <a id="Installation"></a>
 To install this package, you can use the following command:
 
-`pip install git+https://github.com/LostPy/osu-api.git@main`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main`
 
 
 **To update** the package, you can use:  
-`pip install git+https://github.com/LostPy/osu-api.git@main --upgrade`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main --upgrade`
 
 OR
 
-`pip install git+https://github.com/LostPy/osu-api.git@main -U`
+`pip install git+https://github.com/LostPy/osu-api.py.git@main -U`
 
 
 ## Get a api key <a id="getApiKey"></a>
@@ -84,6 +85,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general beatmap information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+ 
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -105,6 +107,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general user information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+ 
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -120,6 +123,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get information about the top 100 of a beatmap.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -137,6 +141,7 @@ This documentation is structured by osu!api
  * **Description:** Function to get general user information.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -152,6 +157,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets the user's ten most recent plays over the last 24 hours.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -167,6 +173,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets information about multiplayer match.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -179,6 +186,7 @@ This documentation is structured by osu!api
  * **Description:** Function to gets the user's ten most recent plays over the last 24 hours.
 
  * **Arguments:** For more information, check [osu!api][apiv1].
+
  Name | Type | Description | Default value
  ---- |:----:| ----------- |:-------------:
  `key` | *str* | The [api key][api-key] to access at [osu!api][apiv1]. |
@@ -205,18 +213,29 @@ Coming soon...
  2. [Installation](#installation)
 
  3. [Get api key](#getApiKey)
-   * [Terms of Use](#termsOfUse)
+    * [Terms of Use](#termsOfUse)
 
  4. [Documentation](#documentation)
-   * [osu!api V1](#apiV1)
-     * [get_beatmaps](#getBeatmaps)
-     * [get_user](#getUser)
-     * [get_scores](#getScores)
-     * [get_user_best](#getUserBest)
-     * [get_user_recent](#getUserRecent)
-     * [get_match](#getMatch)
-     * [get_replay](#getReplay)
+    * [osu!api V1](#apiV1)
+      * [get_beatmaps](#getBeatmaps)
+      * [get_user](#getUser)
+      * [get_scores](#getScores)
+      * [get_user_best](#getUserBest)
+      * [get_user_recent](#getUserRecent)
+      * [get_match](#getMatch)
+      * [get_replay](#getReplay)
 
-   * [osu!api V2](#apiV2)
+    * [osu!api V2](#apiV2)
 
-   * [Enumerate](#enumerate)
+    * [Enumerate](#enumerate)
+
+
+[py]: https://www.python.org/
+[req]: https://requests.readthedocs.io/en/master/
+[pd]: https://pandas.pydata.org/
+[apiv1]: https://github.com/ppy/osu-api/wiki
+[apiv2]: https://osu.ppy.sh/docs/index.html
+[terms]: https://osu.ppy.sh/docs/index.html#terms-of-use
+[api-key]: https://osu.ppy.sh/p/api/
+[license]: https://github.com/LostPy/osu-api.py/blob/main/LICENSE
+[me]: https://osu.ppy.sh/users/11187592
