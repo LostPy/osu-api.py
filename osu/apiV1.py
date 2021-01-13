@@ -24,6 +24,7 @@ urls = {
 }
 
 
+
 def get_beatmaps(key: str, since: str = None, beatmapset_id: int = None, beatmap_id: int = None, type_return: str = 'dict', **kwargs):
 	"""Retrieve general beatmap information."""
 	params = {

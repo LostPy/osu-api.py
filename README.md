@@ -204,8 +204,59 @@ Coming soon...
 
 
 ## Enumerate <a id="Enumerate"></a>
-Coming soon...
+### Mods
+A static class with mods.
 
+#### Attributes of class
+```py
+  Mods.none = 0
+  Mods.no_fail = 1
+  Mods.easy = 2
+  Mods.touch_device = 4
+  Mods.hidden = 8
+  Mods.hard_rock = 16
+  Mods.sudden_death = 32
+  Mods.double_time = 64
+  Mods.relax = 128
+  Mods.half_time = 256
+  Mods.nightcore = 512  # Only set along with DoubleTime. i.e: NC only gives 576
+  Mods.flashlight = 1024
+  Mods.autoplay = 2048
+  Mods.spun_out = 4096
+  Mods.relax2 = 8192  # Autopilot
+  Mods.perfect = 16384  # Only set along with SuddenDeath. i.e: PF only gives 16416  
+  Mods.key4 = 32768
+  Mods.key5 = 65536
+  Mods.key6 = 131072
+  Mods.key7 = 262144
+  Mods.key8 = 524288
+  Mods.fade_in = 1048576
+  Mods.random = 2097152
+  Mods.cinema = 4194304
+  Mods.target = 8388608
+  Mods.key9 = 16777216
+  Mods.key_coop = 33554432
+  Mods.key1 = 67108864
+  Mods.key3 = 134217728
+  Mods.key2 = 268435456
+  Mods.score_v2 = 536870912
+  Mods.mirror = 1073741824
+  ```
+#### Static methods
+ * `key_mod`
+ ```py
+ return Mods.key1 | Mods.key2 | Mods.key3 | Mods.key4 | Mods.key5 | Mods.key6 | Mods.key7 | Mods.key8 | Mods.key9 | Mods.key_coop
+ ```
+
+ * `free_mod_allowed`
+ ```py
+ return Mods.no_fail | Mods.easy | Mods.hidden | Mods.hard_rock | Mods.sudden_death | Mods.flashlight | Mods.fade_in | Mods.relax | Mods.relax2 | Mods.spun_out | Mods.key_mod()
+ ```
+
+ * `score_increase_mods`
+ ```py
+ return Mods.hidden | Mods.hard_rock | Mods.double_time | Mods.flashlight | Mods.fade_in
+ ```
 
 ## Index
  1. [Global informations](#globalInfos)
