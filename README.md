@@ -1,7 +1,10 @@
 # osu-api.py
 [![CodeFactor](https://www.codefactor.io/repository/github/lostpy/osu-api.py/badge)](https://www.codefactor.io/repository/github/lostpy/osu-api.py)  
 
-<img align="left" width="100" height="100" src="https://www.python.org/static/img/python-logo-large.c36dccadd999.png"> A small module to get informations with osu!api <img align="right" width="100" height="100" src="https://github.com/ppy/osu/blob/master/assets/lazer.png">  
+<div class="figure">
+  <img align="left" width="100" height="100" src="https://www.python.org/static/img/python-logo-large.c36dccadd999.png"> <img align="right" width="100" height="100" src="https://github.com/ppy/osu/blob/master/assets/lazer.png">  
+  <p>A small module to get informations with osu!api</p>
+</div>
 
 ## Index
  1. [Global informations](#globalInfos)
