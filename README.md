@@ -3,7 +3,9 @@
 
 <img align="left" width="90" height="90" src="https://www.python.org/static/img/python-logo-large.c36dccadd999.png"> <img align="right" width="90" height="90" src="https://github.com/ppy/osu/blob/master/assets/lazer.png">  
 
-A small package to get informations with osu!api.    
+A small package to get informations with osu!api.  
+With this package you can choose the type of data in output (`json`, `dict` or `dataframe`).  
+An api key is required to access the osu!api data!
 
 ## Index
  1. [Global informations](#globalInfos)
