@@ -1,6 +1,11 @@
 # osu-api.py
 [![CodeFactor](https://www.codefactor.io/repository/github/lostpy/osu-api.py/badge)](https://www.codefactor.io/repository/github/lostpy/osu-api.py)  
- A small module to get informations with osu!api
+
+<img align="left" width="100" height="100" src="https://www.python.org/static/img/python-logo-large.c36dccadd999.png"> <img align="right" width="100" height="100" src="https://github.com/ppy/osu/blob/master/assets/lazer.png">  
+
+A small package to get informations with osu!api.  
+With this package you can choose the type of data in output (`json`, `dict` or `dataframe`).  
+An api key is required to access the osu!api data!
 
 ## Index
  1. [Global informations](#globalInfos)
@@ -244,19 +249,13 @@ A static class with mods.
   ```
 #### Static methods
  * `key_mod`
- ```py
- return Mods.key1 | Mods.key2 | Mods.key3 | Mods.key4 | Mods.key5 | Mods.key6 | Mods.key7 | Mods.key8 | Mods.key9 | Mods.key_coop
- ```
+ `return Mods.key1 | Mods.key2 | Mods.key3 | Mods.key4 | Mods.key5 | Mods.key6 | Mods.key7 | Mods.key8 | Mods.key9 | Mods.key_coop`
 
  * `free_mod_allowed`
- ```py
- return Mods.no_fail | Mods.easy | Mods.hidden | Mods.hard_rock | Mods.sudden_death | Mods.flashlight | Mods.fade_in | Mods.relax | Mods.relax2 | Mods.spun_out | Mods.key_mod()
- ```
+ `return Mods.no_fail | Mods.easy | Mods.hidden | Mods.hard_rock | Mods.sudden_death | Mods.flashlight | Mods.fade_in | Mods.relax | Mods.relax2 | Mods.spun_out | Mods.key_mod()`
 
  * `score_increase_mods`
- ```py
- return Mods.hidden | Mods.hard_rock | Mods.double_time | Mods.flashlight | Mods.fade_in
- ```
+ `return Mods.hidden | Mods.hard_rock | Mods.double_time | Mods.flashlight | Mods.fade_in`
 
 ## Index
  1. [Global informations](#globalInfos)
