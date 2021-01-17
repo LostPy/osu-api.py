@@ -248,13 +248,13 @@ A static class with mods.
   Mods.mirror = 1073741824
   ```
 #### Static methods
- * `key_mod`
+ * `key_mod`  
  `return Mods.key1 | Mods.key2 | Mods.key3 | Mods.key4 | Mods.key5 | Mods.key6 | Mods.key7 | Mods.key8 | Mods.key9 | Mods.key_coop`
 
- * `free_mod_allowed`
+ * `free_mod_allowed`  
  `return Mods.no_fail | Mods.easy | Mods.hidden | Mods.hard_rock | Mods.sudden_death | Mods.flashlight | Mods.fade_in | Mods.relax | Mods.relax2 | Mods.spun_out | Mods.key_mod()`
 
- * `score_increase_mods`
+ * `score_increase_mods`  
  `return Mods.hidden | Mods.hard_rock | Mods.double_time | Mods.flashlight | Mods.fade_in`
 
 ## Index
