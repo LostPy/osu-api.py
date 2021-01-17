@@ -7,7 +7,7 @@
   <p>A small module to get informations with osu!api</p>
 </div>
 
-<div class="body">
+<body>
 ## Index
  1. [Global informations](#globalInfos)
 
@@ -279,7 +279,7 @@ A static class with mods.
     * [osu!api V2](#apiV2)
 
     * [Enumerate](#enumerate)
-</div>
+</body>
 
 [py]: https://www.python.org/
 [req]: https://requests.readthedocs.io/en/master/
