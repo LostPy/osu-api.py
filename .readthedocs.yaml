@@ -2,11 +2,11 @@
 version: 2
 
 formats:
-	- pdf
+  - pdf
 
 python:
-	- version: 3.8
+  - version: 3.8
 
 search:
-	ranking:
-		README.md: 1
+  ranking:
+    README.md: 1
