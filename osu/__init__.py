@@ -8,3 +8,5 @@ Date: 2021-01-11
 
 from .utils import from_json
 from .enumerate import Mods
+import apiV1 as v1
+
