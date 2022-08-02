@@ -34,7 +34,7 @@ def get_beatmaps(key: str, since: str = None, beatmapset_id: int = None, beatmap
 	'b': beatmap_id,
 	'u': kwargs['user'] if 'user' in kwargs else None,
 	'type': kwargs['type_'] if 'type_' in kwargs else None,
-	'mode': kwargs['mode'] if 'mode' in kwargs else None,
+	'm': kwargs['mode'] if 'mode' in kwargs else None,
 	'a': kwargs['a'] if 'a' in kwargs else 0,
 	'h': kwargs['h'] if 'h' in kwargs else None,
 	'limit': kwargs['limit'] if 'limit' in kwargs else 500,
@@ -120,3 +120,4 @@ def get_cover_image(beatmapset_id: int):
 def get_profile_image(user_id: int):
 	"""Return url of profile image of user."""
 	return f"http://s.ppy.sh/a/{user_id}"
+
